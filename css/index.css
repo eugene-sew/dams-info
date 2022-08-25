@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+:root {
+  --color-primary-primary: #5f7161;
+  --secondary-color: #6d8b74;
+  --color-tertiary: #efead8;
+  --color-light: #d0c9c0;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  width: vw;
+  height: 100vh;
+  overflow-y: scroll;
+  background-color: white;
+}
+
+nav .firstsidebar {
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  gap: 7rem;
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+.lex {
+  position: fixed;
+  background-color: white;
+}
+.firstsidebar .con {
+  font-size: 2rem;
+  font-style: inherit;
+  color: #085311;
+  margin-top: 1rem;
+}
+.ho {
+  font-size: 0.8rem;
+  text-align: left;
+  margin-left: 50rem;
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+.ho img {
+  height: 3.5rem;
+}
+
+.ho .tech {
+  margin-top: 2rem;
+}
+
+.firstline {
+  color: #085311;
+  margin-bottom: 1.5rem;
+  height: 0.25rem;
+  background-color: #085311;
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+}
+.body {
+  display: flex;
+}
+.secondsidebar {
+  position: fixed;
+  width: 30%;
+  margin-top: 8rem;
+}
+
+.secondsidebar ul a {
+  display: flex;
+  gap: 2rem;
+  font-size: 1rem;
+  margin-left: 1rem;
+  padding: 0.5rem;
+  color: black;
+}
+.secondsidebar ul li a {
+  list-style: none;
+}
+a {
+  color: back;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+.secondsidebar a:hover {
+  font-weight: bold;
+  color: #085311;
+}
+.dams {
+  display: block;
+  margin-left: 18rem;
+  margin-top: 8rem;
+  width: 80%;
+}
+.secondline {
+  margin-right: 0.6rem;
+}
+.dams .pdams {
+  font-size: 1.5rem;
+}
+.details {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 15rem;
+  font-size: 0.9em;
+}
+.etor {
+  width: 85%;
+  font-size: small;
+}
+.info {
+  display: flex;
+  gap: 8.5rem;
+}
+.info .members {
+  display: inline-flexbox;
+  gap: 0.8rem;
+}
+.introduction {
+  margin-top: 2rem;
+}
+.introduction p {
+  margin-top: 0.5rem;
+}
+.problem {
+  margin-top: 2rem;
+  display: flex;
+}
+.problem p {
+  margin-top: 0.5rem;
+}
+.goal p {
+  margin-top: 0.5rem;
+}
+.deforest {
+  width: 60%;
+}
+.problem img {
+  height: 12rem;
+  margin-right: 0.5rem;
+  border-radius: 5%;
+}
+
+.impact {
+  margin-top: 2rem;
+}
+.impact p {
+  margin-top: 0.5rem;
+}
+.ideation {
+  margin-top: 2rem;
+}
+.fin {
+  width: 50%;
+}
+.early {
+  display: flex;
+}
+.fin {
+  margin-top: 0.5rem;
+}
+
+.ideation img {
+  height: 30%;
+  width: 40%;
+  padding-bottom: rem;
+  margin-left: 4rem;
+}
+.utesting {
+  margin-top: 0.5rem;
+}
+.testing {
+  margin-top: 2rem;
+}
+.testing img {
+  height: 50%;
+  width: 50%;
+}
+
+.testing ol {
+  margin-top: 0.5rem;
+  display: flex;
+  width: 90%;
+  gap: 6rem;
+}
+
+.design {
+  margin-top: 2rem;
+}
+.design p {
+  margin-top: 0.5rem;
+}
+.challenges {
+  margin-top: 2rem;
+}
+.challenges p {
+  margin-top: 0.5rem;
+}
+.plans {
+  margin-top: 2rem;
+}
+.plans ul li {
+  padding: 0.3rem;
+}
+
+.emulation {
+  display: flex;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+.emulation img {
+  width: 50%;
+  margin-left: 3rem;
+}
+.emulation p {
+  margin-top: 1rem;
+  width: 40%;
+}
+.plans img {
+  margin-left: 15rem;
+}
